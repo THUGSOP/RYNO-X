@@ -1,4 +1,4 @@
-# †hê Hêllẞø†
+# THE RYNO-X
 This is a userbot made for telegram. I made this userbot with help of all other userbots available in telegram. All credits goes to its Respective Owners....
 
 This is the one and only official HellBot Userbot made by [@Kraken_The_BadASS](https://t.me/kraken_the_badass) Also join support channel and group :- https://t.me/HellBot_Official Enjoy Your Bot!!💝
@@ -26,20 +26,11 @@ This is the one and only official HellBot Userbot made by [@Kraken_The_BadASS](h
 ### • [JaaduBot](https://github.com/Amberyt/JaaduBot)
 ## One and only. Others with some misfuntioning brain stay out from this SUPER POWERFULL BOT😏
 
-## The Normal Way
 
-Simply clone the repository and run the main file:
-```sh
-git clone https://github.com/HellBoy-OP/HellBot
-cd HellBot
-virtualenv -p /usr/bin/python3 venv
-. ./venv/bin/activate
-pip install -r requirements.txt
-# <Create local_config.py with variables as given below>
-python3 -m userbot
-```
 
-An example `local_config.py` file could be:
+
+
+
 
 **Not All of the variables are mandatory**
 
