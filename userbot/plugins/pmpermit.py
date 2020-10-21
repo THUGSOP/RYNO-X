@@ -12,7 +12,7 @@ from userbot import CMD_HELP
 
 PMPERMIT_PIC = os.environ.get("PMPERMIT_PIC", None)
 if PMPERMIT_PIC is None:
-  WARN_PIC = "https://telegra.ph/file/db92ed3d77377856ef911.mp4"
+  WARN_PIC = "https://telegra.ph/file/04a43e5aa4ec612b92af6.mp4"
 else:
   WARN_PIC = PMPERMIT_PIC
 
@@ -29,7 +29,7 @@ DEFAULTUSER = (
 CUSTOM_MIDDLE_PMP = str(CUSTOM_PMPERMIT) if CUSTOM_PMPERMIT else "**YOU HAVE TRESPASSED TO MY MASTERS INBOX** \n THIS IS ILLEGAL AND REGARDED AS CRIME"
 
 USER_BOT_WARN_ZERO = "**You were spamming my sweet master's inbox, henceforth you have been blocked by my master's Hêllẞø†.**\n__Now GTFO, i'm busy__"
-USER_BOT_NO_WARN = ("Hello, This is **Hêllẞø† Úl†rã Pr¡va†e Security Protocol⚠️**.You have found your way here to my master,"
+USER_BOT_NO_WARN = ("Hello, This is **RYNO-X Úl†rã Pr¡va†e Security Protocol⚠️**.You have found your way here to my master,"
                    f"{DEFAULTUSER}'s Inbox\n"
                    f"\n**{CUSTOM_MIDDLE_PMP}**\n\n"
                     "__Leave your Name,Reason and 100 million $ and hopefully you'll get a reply within 100 light years.__⭕️\n\n"
@@ -233,7 +233,7 @@ async def hehehe(event):
     if event.is_private:
         if not pmpermit_sql.is_approved(chat.id):
             pmpermit_sql.approve(chat.id, "**My Boss Is Best🔥**")
-            await borg.send_message(chat, "**Boss Meet My Creator he made me..he is the best you know🔥** @Kraken_The_BadASS")
+            await borg.send_message(chat, "**Boss Meet My Creator he made me..he is the best you know🔥** @@HUNTER_YUVRAJ")
             
             
             
