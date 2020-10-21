@@ -19,8 +19,8 @@ requirements_path = path.join(
 
 HEROKU_API_KEY = Var.HEROKU_API_KEY
 HEROKU_APP_NAME = Var.HEROKU_APP_NAME
-GIT_REPO_NAME = "HellBot"
-UPSTREAM_REPO_URL = "https://github.com/HellBoy-OP/HellBot.git"
+GIT_REPO_NAME = "RYNOX"
+UPSTREAM_REPO_URL = "https://github.com/rhinox-rgb/RYNOX.git"
 
 async def gen_chlog(repo, diff):
     ch_log = ''
@@ -85,7 +85,7 @@ async def upstream(ups):
             f'**[UPDATER]:**` Looks like you are using your own custom branch ({ac_br}). '
             'in that case, Updater is unable to identify '
              'which branch is to be merged. '
-            'Please checkout the official branch of Hêllẞø†`')
+            'Please checkout the official branch of RYNO-X`')
         repo.__del__()
         return
 
@@ -101,7 +101,7 @@ async def upstream(ups):
 
     if not changelog and not force_updateme:
         await ups.edit(
-            f'\n`Your` __Hêllẞø†__ `is`  **up-to-date**  `with`  **[[{ac_br}]]({UPSTREAM_REPO_URL}/tree/{ac_br})**\n')
+            f'\n`Your` __RYNO-X__ `is`  **up-to-date**  `with`  **[[{ac_br}]]({UPSTREAM_REPO_URL}/tree/{ac_br})**\n')
         repo.__del__()
         return
 
@@ -125,9 +125,9 @@ async def upstream(ups):
 
     if force_updateme:
         await ups.edit(
-            '`Force-Updating to latest stable Hêllẞø† code, please wait sur😅😅...`')
+            '`Force-Updating to latest stable RYNO-X code, please wait sur😅😅...`')
     else:
-        await ups.edit('`Updating your` **Hêllẞø†** `please wait for 10 mins then type .alive/.ping/.awake/.help/.test to see if I am On... \n\n          __Hêllẞø†__')
+        await ups.edit('`Updating your` **RYNO-X** `please wait for 10 mins then type .alive/.ping/.awake/.help/.test to see if I am On... \n\n          __RYNO-X__')
     # We're in a Heroku Dyno, handle it's memez.
     if Var.HEROKU_API_KEY is not None:
         import heroku3
@@ -135,7 +135,7 @@ async def upstream(ups):
         heroku_app = None
         heroku_applications = heroku.apps()
         if not Var.HEROKU_APP_NAME:
-            await ups.edit('`Please set up the HEROKU_APP_NAME variable to be able to update Hêllẞø†.`')
+            await ups.edit('`Please set up the HEROKU_APP_NAME variable to be able to update RYNO-X.`')
             repo.__del__()
             return
         for app in heroku_applications:
@@ -148,7 +148,7 @@ async def upstream(ups):
             )
             repo.__del__()
             return
-        await ups.edit('`Updating your Hêllẞø†.... .`'
+        await ups.edit('`Updating your RYNO-X.... .`'
                        )
         ups_rem.fetch(ac_br)
         repo.git.reset("--hard", "FETCH_HEAD")
@@ -165,7 +165,7 @@ async def upstream(ups):
             await ups.edit(f'{txt}\n`Here is the error log:\n{error}`')
             repo.__del__()
             return
-        await ups.edit('`Updated Hêllẞø† Successfully Sur🔥🔥\n'
+        await ups.edit('`Updated RYNO-X Successfully Sur🔥🔥\n'
                        'Restarting, please wait...5 mins...then type .ping to check if I am On!!!😐`')
     else:
         # Classic Updater, pretty straightforward.
