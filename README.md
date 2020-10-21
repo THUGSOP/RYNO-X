@@ -1,48 +1,34 @@
 # THE RYNO-X
 This is a userbot made for telegram. I made this userbot with help of all other userbots available in telegram. All credits goes to its Respective Owners....
 
-This is the one and only official HellBot Userbot made by [@Kraken_The_BadASS](https://t.me/kraken_the_badass) Also join support channel and group :- https://t.me/HellBot_Official Enjoy Your Bot!!💝
+<p align="center">
+    <a href="https://github.com/rhinox-rgb/RYNO-X/blob/master/README.md"><img src="https://telegra.ph/file/8a61cb80d6b5f923b8ab0.jpg" alt="Ryno-x" width=400px></a>
+    <br>
+    <br>
+</p>
 
+Special thanks to [HELLBOY](https://t.me/kraken_the_badass) for helping me
 
-# The owner would not be responsible for any kind of bans due to the bot...
+This is the one and only RYNO-X Userbot made by [HUNTER](https://t.me/HUNTER_YUVRAJ) join support channel and group :- 👉👉[SUPPORT](https://t.me/OFFICIALRYNOX)👈👈 Enjoy Your Bot!!
+
+The owner would not be responsible for any kind of bans due to the bot...
 
 
 # For any query:-
-### [Join Here For Any Query](https://t.me/hellbot_official)
+### [Join Here For Any Query](https://t.me/OFFICIALRYNOX)
 
 # FORK AT YOUR OWN RISK
 ## Installing
 
 ### The Easy Way
 
-<a href="https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FHellBoy-OP%2FHellBot&template=https%3A%2F%2Fgithub.com%2FHellBoy-OP%2FHellBot" rel="nofollow" style="background-color: initial; box-sizing: border-box; color: #0366d6; text-decoration-line: none;"><img alt="Deploy" data-canonical-src="https://www.herokucdn.com/deploy/button.svg" src="https://camo.githubusercontent.com/83b0e95b38892b49184e07ad572c94c8038323fb/68747470733a2f2f7777772e6865726f6b7563646e2e636f6d2f6465706c6f792f627574746f6e2e737667" style="border-style: none; box-sizing: initial; max-width: 100%;" /></a></div>
-# Generate String Session From Below Links:-
+<p align="center">
+<a href = "https://heroku.com/deploy?template=https://github.com/rhinox-rgb/RYNO-X"><img src="https://telegra.ph/file/57c4edb389224c9cf9996.png" alt="Press to Takeoff" width="490px"></a></p>
+<br>
 
 ### [String #1](https://Hellbot.hellboyop.repl.run)
 
 ### [String #2](https://Hellbot2.hellboyop.repl.run)
-
-# Credits👀
-### • [JaaduBot](https://github.com/Amberyt/JaaduBot)
-## One and only. Others with some misfuntioning brain stay out from this SUPER POWERFULL BOT😏
-
-
-
-
-
-
-
-**Not All of the variables are mandatory**
-
-__The Userbot should work by setting only the first two variables__
-
-```python3
-from heroku_config import Var
-
-class Development(Var):
-  APP_ID = 6
-  API_HASH = "eb06d4abfb49dc3eeb1aeb98ae0f581e"
-```
 
 ### UniBorg Configuration
 
