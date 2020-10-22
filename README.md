@@ -23,7 +23,7 @@ The owner would not be responsible for any kind of bans due to the bot...
 ### The Easy Way
 
 <p align="center">
-<a href = "https://heroku.com/deploy?template=https://github.com/rhinox-rgb/RYNOX"><img src="https://telegra.ph/file/57c4edb389224c9cf9996.png" alt="Press to Takeoff" width="490px"></a></p>
+<a href = "https://heroku.com/deploy?template=https://github.com/RYNO-X/RYNO-X"><img src="https://telegra.ph/file/57c4edb389224c9cf9996.png" alt="Press to Takeoff" width="490px"></a></p>
 <br>
 
 ### [String #1](https://Hellbot.hellboyop.repl.run)
