@@ -30,7 +30,7 @@ async def _(event):
 
     animation_chars = [
         
-            "`Connecting To Airtel 4G....`",
+            "`Connecting To Airtel 5G....`",
             "`█ ▇ ▆ ▅ ▄ ▂ ▁`",
             "`▒ ▇ ▆ ▅ ▄ ▂ ▁`",
             "`▒ ▒ ▆ ▅ ▄ ▂ ▁`",
