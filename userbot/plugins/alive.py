@@ -17,9 +17,9 @@ pm_caption += "⚠️⚠️**CHANNEL**⚠️⚠️     : [ᴊᴏɪɴ](https://t.
 
 pm_caption += "🔱🔱**GROUP**🔱🔱.         : [ᴊᴏɪɴ](https://t.me/RYNOXCHAT)\n\n"
 
-pm_caption += "😎😎**LICENSE**😎😎       : [ӀíϲҽղՏҽ](https://github.com/rhinox-rgb/RYNOX/blob/master/LICENSE)\n\n"
+pm_caption += "😎😎**LICENSE**😎😎       : [ӀíϲҽղՏҽ](https://github.com/RYNO-X/RYNOUSER/blob/master/LICENSE)\n\n"
 
-pm_caption += "🔥🔥**CREATOR🔥🔥      : [HellBot-Owner](https://t.me/HUNTER_YUVRAJ)\n\n"
+pm_caption += "🔥🔥**CREATOR🔥🔥      : [RYNO-X OWNER](https://t.me/HUNTER_YUVRAJ)\n\n"
 
 pm_caption += " [...▄███▄███▄\n....█████████\n.......▀█████▀\n............▀█▀\n](https://t.me/OFFICIALRYNOX)\n\n"
 #@command(outgoing=True, pattern="^.alive$")
