@@ -20,7 +20,7 @@ requirements_path = path.join(
 HEROKU_API_KEY = Var.HEROKU_API_KEY
 HEROKU_APP_NAME = Var.HEROKU_APP_NAME
 GIT_REPO_NAME = "RYNOX"
-UPSTREAM_REPO_URL = "https://github.com/rhinox-rgb/RYNOX.git"
+UPSTREAM_REPO_URL = "https://github.com/RYNO-X/RYNO-X.git"
 
 async def gen_chlog(repo, diff):
     ch_log = ''
@@ -144,7 +144,7 @@ async def upstream(ups):
                 break
         if heroku_app is None:
             await ups.edit(
-                f'{txt}\n`Invalid Heroku credentials for updating Hêllẞø† dyno.`'
+                f'{txt}\n`Invalid Heroku credentials for updating RYNO-X dyno.`'
             )
             repo.__del__()
             return
