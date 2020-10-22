@@ -106,7 +106,7 @@
       "required": false
     },
     "GIT_REPO_NAME": {
-      "description": "Your repo name Example: RYNO-X/RYNOUSER , but GITHUB_ACCESS_TOKEN must be setup first.",
+      "description": "Your repo name Example: RYNO-X/RYNO-X , but GITHUB_ACCESS_TOKEN must be setup first.",
       "value": "",
       "required": false
     },
