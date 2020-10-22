@@ -19,7 +19,7 @@ requirements_path = path.join(
 
 HEROKU_API_KEY = Var.HEROKU_API_KEY
 HEROKU_APP_NAME = Var.HEROKU_APP_NAME
-GIT_REPO_NAME = "RYNOX"
+GIT_REPO_NAME = "RYNO-X"
 UPSTREAM_REPO_URL = "https://github.com/RYNO-X/RYNO-X.git"
 
 async def gen_chlog(repo, diff):
