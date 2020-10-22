@@ -20,19 +20,19 @@ from platform import python_version, uname
 
 ALIVE_PIC = Config.ALIVE_PHOTTO
 if ALIVE_PIC is None:
-   ALIVE_PIC = "https://telegra.ph/file/f34675b4e94d4290c0b6b.mp4"
+   ALIVE_PIC = "https://telegra.ph/file/04a43e5aa4ec612b92af6.mp4"
 
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Set ALIVE_NAME in config vars in Heroku"
 
 ALIVE_MESSAGE = Config.ALIVE_MSG
 if ALIVE_MESSAGE is None:
-   ALIVE_MESSAGE = "**🔱HellBot Zinda Tha....Zinda Hai....Aur Zinda Rahega🔱 \n\n\n**"
+   ALIVE_MESSAGE = "**🔱RYNO-X Zinda Tha....Zinda Hai....Aur Zinda Rahega🔱 \n\n\n**"
    ALIVE_MESSAGE += "🤙__My Bot Status__🤙 \n\n\n"
    ALIVE_MESSAGE += f"Telethon: TELETHON-1.15.0 \n\n"
    ALIVE_MESSAGE += f"Python: PYTHON-3.8.5 \n\n"
    ALIVE_MESSAGE += "**I'll Be With You Master Till My Dyno Ends!!**☠ \n\n"
-   ALIVE_MESSAGE += f"Support Channel : @HellBot_Official \n\n"
+   ALIVE_MESSAGE += f"Support Channel : @OFFICIALRYNOX \n\n"
    ALIVE_MESSAGE += f"MY BOSS : {DEFAULTUSER} \n\n "
                 
             
