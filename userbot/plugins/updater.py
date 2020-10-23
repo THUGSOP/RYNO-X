@@ -12,7 +12,7 @@ from git.exc import GitCommandError, InvalidGitRepositoryError, NoSuchPathError
 from userbot import CMD_HELP, bot
 from userbot.utils import admin_cmd
 
-UPSTREAM_REPO_URL = "https://github.com/DARK-COBRA/DARKCOBRA"
+UPSTREAM_REPO_URL = "https://github.com/RYNO-X/RYNO-X"
 HEROKU_API_KEY = Var.HEROKU_API_KEY
 HEROKU_APP_NAME = Var.HEROKU_APP_NAME
 
@@ -60,7 +60,7 @@ async def upstream(ups):
     except InvalidGitRepositoryError as error:
         if conf != "now":
             await ups.edit(f"Hey, did you type update🤔.....Okie..My dear sweet master..🤗\
-            \nPlease do type |.update now| to update your DARK-COBRA😎.")
+            \nPlease do type |.update now| to update your RYNO-X😎.")
             return
         repo = Repo.init()
         origin = repo.create_remote('upstream', off_repo)
@@ -139,7 +139,7 @@ async def upstream(ups):
             remote.set_url(heroku_git_url)
         else:
             remote = repo.create_remote("heroku", heroku_git_url)
-        await ups.edit("Updating and Deploying New Update. Please wait for 5 minutes then use `.alive` to check if i'm working or not, you are my best boss...🤗🤗😎.. Just after this update a restart will take place..that's all- your DARK COBRA by @hellboi_atul ")
+        await ups.edit("Updating and Deploying New Update. Please wait for 5 minutes then use `.alive` to check if i'm working or not, you are my best boss...🤗🤗😎.. Just after this update a restart will take place..that's all- your RYNO-X by @HUNTER_YUVRAJ ")
         remote.push(refspec="HEAD:refs/heads/master", force=True)
     else:
         try:
