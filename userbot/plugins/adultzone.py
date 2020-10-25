@@ -1,5 +1,6 @@
 #credits to userge
-#ported to Hellbot by @kraken_the_badass
+
+#ported to RYNO-x by @HUNTER_YUVRAJ
 #will be adding more soon
 
 import os, urllib, requests, asyncio
