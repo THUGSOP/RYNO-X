@@ -9,7 +9,7 @@ pm_caption = "🔥🔥**RYNO-X IS ONLINE🔥🔥\n\n\n"
 
 pm_caption += f"⚔️⚔️**MASTER**⚔️⚔️       : {DEFAULTUSER}\n\n"
 
-pm_caption += "🛡️🛡️**TELETHON**🛡️🛡️   : 1.15.0 \n\n"
+pm_caption += "🛡️🛡️**TELETHON**🛡️🛡️   : 1.02.0 \n\n"
 
 pm_caption += "😈😈**RYNO-X**😈😈         : __V-1.1__\n\n"
 
