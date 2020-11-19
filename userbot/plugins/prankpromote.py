@@ -3,6 +3,9 @@
 
 import random, re
 from uniborg.util import admin_cmd
+from userbot.events import register 
+
+from userbot import bot, CMD_HELP
 import asyncio
 from telethon import events
 
