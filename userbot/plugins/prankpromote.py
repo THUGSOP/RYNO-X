@@ -57,31 +57,3 @@ async def _(event):
         await asyncio.sleep(1)
         await event.edit("`RYNO-X`:**DEMOTED USER SUCCESSFULLY**")
 
-CMD_HELP.update({
-
-        
-     "prankpromote":
-
-        "`.rpromote`\
-
-\nUsage:PRANK PROMOTION OF USER.\
-
-            \n\n`.npromote`\
-
-            \nUsage:NOT PROMOTING USER\
-
-            \n\n`.ndemote`>\
-
-            \nUsage:NOT DEMOTING.\
-
-            \n\n`.rdemote`\
-
-            \nUsage: PRANK PROMOTING USER.\"
-
-
-
-      
-
-
-
-})
