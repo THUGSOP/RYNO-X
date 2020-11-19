@@ -6,50 +6,50 @@ from uniborg.util import admin_cmd
 import asyncio
 from telethon import events
 
-@borg.on(admin_cmd(pattern="ppromote ?(.*)"))
+@register(outgoing=True, pattern="^.rpromote(?: |$)(.*)")
 async def _(event):
      if not event.text[0].isalpha() and event.text[0] not in ("/", "#", "@", "!"):
-        await event.edit("`ðŸ˜ˆRYNO-XðŸ˜ˆ`:**PROMOTING USER..**")
+        await event.edit("`RYNO-X`:**PROMOTING USER..**")
         await asyncio.sleep(1)
-        await event.edit("`ðŸ˜ˆRYNO-XðŸ˜ˆ`:**PROMOTING USER...**")
+        await event.edit("`RYNO-X`:**PROMOTING USER...**")
         await asyncio.sleep(1)
-        await event.edit("`ðŸ˜ˆRYNO-XðŸ˜ˆ`:**PROMOTING USER....**")
+        await event.edit("`RYNO-X`:**PROMOTING USER....**")
         await asyncio.sleep(1)
-        await event.edit("`ðŸ˜ˆRYNO-XðŸ˜ˆ`:**PROMOTED USER SUCCESSFULLY**")
+        await event.edit("`RYNO-X`:**PROMOTED USER SUCCESSFULLY**")
         
         
-@borg.on(admin_cmd(pattern="npromote ?(.*)"))
+@register(outgoing=True, pattern="^.npromote(?: |$)(.*)")
 async def _(event):
      if not event.text[0].isalpha() and event.text[0] not in ("/", "#", "@", "!"):
-        await event.edit("`ðŸ˜ˆRYNO-XðŸ˜ˆ`:**PROMOTING USER..**")
+        await event.edit("`RYNO-X`:**PROMOTING USER..**")
         await asyncio.sleep(1)
-        await event.edit("`ðŸ˜ˆRYNO-XðŸ˜ˆ`:**PROMOTING USER...**")
+        await event.edit("`RYNO-X`:**PROMOTING USER...**")
         await asyncio.sleep(1)
-        await event.edit("`ðŸ˜ˆRYNO-XðŸ˜ˆ`:**PROMOTING USER....**")
+        await event.edit("`RYNO-X`:**PROMOTING USER....**")
         await asyncio.sleep(1)
-        await event.edit("`ðŸ˜ˆRYNO-XðŸ˜ˆ`:**Not Enough Rights To Promote user to Admin**")
+        await event.edit("`RYNO-X`:**Not Enough Rights To Promote user to Admin**")
         
         
         
-@borg.on(admin_cmd(pattern="ndemote ?(.*)"))
+@register(outgoing=True, pattern="^.ndemote(?: |$)(.*)")
 async def _(event):
      if not event.text[0].isalpha() and event.text[0] not in ("/", "#", "@", "!"):
-        await event.edit("`ðŸ˜ˆRYNO-XðŸ˜ˆ`:**DEMOTING USER..**")
+        await event.edit("`RYNO-X`:**DEMOTING USER..**")
         await asyncio.sleep(1)
-        await event.edit("`ðŸ˜ˆRYNO-XðŸ˜ˆ`:**DEMOTING USER...**")
+        await event.edit("`RYNO-X`:**DEMOTING USER...**")
         await asyncio.sleep(1)
-        await event.edit("`ðŸ˜ˆRYNO-XðŸ˜ˆ`:**DEMOTING USER....**")
+        await event.edit("`RYNO-X`:**DEMOTING USER....**")
         await asyncio.sleep(1)
-        await event.edit("`ðŸ˜ˆRYNO-XðŸ˜ˆ`:**Not Enough Rights To Demote user **")
+        await event.edit("`RYNO-X`:**Not Enough Rights To Demote user **")
         
         
-@borg.on(admin_cmd(pattern="pdemote ?(.*)"))
+@register(outgoing=True, pattern="^.rdemote(?: |$)(.*)")
 async def _(event):
      if not event.text[0].isalpha() and event.text[0] not in ("/", "#", "@", "!"):
-        await event.edit("`ðŸ˜ˆRYNO-XðŸ˜ˆ`:**DEMOTING USER..**")
+        await event.edit("`RYNO-X`:**DEMOTING USER..**")
         await asyncio.sleep(1)
-        await event.edit("`ðŸ˜ˆRYNO-XðŸ˜ˆ`:**DEMOTING USER...**")
+        await event.edit("`RYNO-X`:**DEMOTING USER...**")
         await asyncio.sleep(1)
-        await event.edit("`ðŸ˜ˆRYNO-XðŸ˜ˆ`:**DEMOTING USER....**")
+        await event.edit("`RYNO-X`:**DEMOTING USER....**")
         await asyncio.sleep(1)
-        await event.edit("`ðŸ˜ˆRYNO-XðŸ˜ˆ`:**DEMOTED USER SUCCESSFULLY**")
+        await event.edit("`RYNO-X`:**DEMOTED USER SUCCESSFULLY**")
