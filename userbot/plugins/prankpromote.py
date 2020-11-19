@@ -59,11 +59,12 @@ async def _(event):
 
 CMD_HELP.update({
 
-        "prankpromote":
+        
+     "prankpromote":
 
-        ".rpromote\
+        "`.rpromote`\
 
-            \nUsage:PRANK PROMOTION OF USER.\
+\nUsage:PRANK PROMOTION OF USER.\
 
             \n\n`.npromote`\
 
