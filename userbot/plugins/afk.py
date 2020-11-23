@@ -7,7 +7,9 @@ from datetime import datetime
 
 from telethon import events
 from telethon.tl import functions, types
+from userbot.utils import edit_or_reply, errors_handler, sudo_cmd
 
+from userbot import BOTLOG, BOTLOG_CHATID, LOGS
 from userbot import CMD_HELP
 from userbot.utils import admin_cmd
 
@@ -129,7 +131,12 @@ async def on_afk(event):
         last_afk_message[event.chat_id] = msg  # pylint:disable=E0602
 
 
-@borg.on(admin_cmd(pattern=r"afk ?(.*)", outgoing=True))  # pylint:disable=E0602
+
+@bot.on(admin_cmd("afk($| (.*))"))
+
+@bot.on(sudo_cmd(pattern="afk($| (.*))", allow_sudo=True))
+
+@errors_handler
 async def _(event):
     if event.fwd_from:
         return
