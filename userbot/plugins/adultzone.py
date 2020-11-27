@@ -4,9 +4,12 @@
 #will be adding more soon
 
 import os, urllib, requests, asyncio
-from userbot.utils import admin_cmd
+from userbot.utils import admin_cmd, edit_or_reply, errors_handler, sudo_cmd
 
 @borg.on(admin_cmd(pattern=r"boobs"))
+@bot.on(sudo_cmd(pattern="boobs", allow_sudo=True))
+
+@errors_handler
 async def boobs(event):
     if not os.path.isdir(Var.TEMP_DOWNLOAD_DIRECTORY):
         os.makedirs(Var.TEMP_DOWNLOAD_DIRECTORY)
@@ -22,6 +25,9 @@ async def boobs(event):
     await a.delete()
 
 @borg.on(admin_cmd(pattern=r"butts"))
+@bot.on(sudo_cmd(pattern="butts", allow_sudo=True))
+
+@errors_handler
 async def butts(event):
     if not os.path.isdir(Var.TEMP_DOWNLOAD_DIRECTORY):
         os.makedirs(Var.TEMP_DOWNLOAD_DIRECTORY)
